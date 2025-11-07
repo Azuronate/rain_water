@@ -1,5 +1,5 @@
 #
-# "Linear Bucketer," developed by Nathan Parker, for CSCI-H 200
+# "Linear Bucketeer," developed by Nathan Parker, for CSCI-H 200
 #	Time Complexity: O(n)
 #
 
