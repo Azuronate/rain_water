@@ -25,7 +25,7 @@ def calculate_water(height_map):
 
 			if len(bucket) >= 3: # We cannot fill buckets/parabolas without two sides
 				local_minima.append(bucket)
-				threshold = sorted(bucket)[::-1][1] # a/k/a second highest value
+				threshold = np.partition(bucket, -2)[-2] # a/k/a second highest value
 
 				#
 				# Avoid using another for loop, I utilize the power of Numpy,
