@@ -1,3 +1,8 @@
+#
+# "Linear Bucketer," developed by Nathan Parker, for CSCI-H 200
+#	Time Complexity: O(n)
+#
+
 import numpy as np
 
 def calculate_water(height_map):
