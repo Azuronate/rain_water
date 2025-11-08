@@ -68,3 +68,4 @@ print(calculate_water([0,5,5,0])) # 0
 print(calculate_water([1,0,1])) # 1
 print(calculate_water([0,0,1])) # 0
 print(calculate_water([2,1])) # 0
+print(calculate_water([1,1,2,0,2,0,3,1,2,1,2,1,2,3])) # 13 (Jaiden's test case)
